@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyTorch / YOLO artifacts
+runs/*
+weights/*
+*.pt
+
+# Logs
+*.log
+
+# Dataset (if too large)
+# data/images_split/
+# data/labels_split/
+# data/masks/
+data/plantvillage dataset/
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+

@@ -1,0 +1,4 @@
+train: images_split/train
+val: images_split/val
+nc: 2
+names: ['healthy', 'diseased']
